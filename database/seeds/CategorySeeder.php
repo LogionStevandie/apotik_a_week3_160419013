@@ -13,11 +13,13 @@ class CategorySeeder extends Seeder
     {
         //
         DB::table('categories')->insert([
-            'category_name'=>'ANALGESIK NARKOTIK',
+            'category_name'=>' ANTIPIRAI',
+            'description'=>'Menurunkan kadar asam urat',
         ]);
 
         DB::table('categories')->insert([
-            'category_name'=>'ANALGESIK NON NARKOTIK',
+            'category_name'=>'NYERI NEUROPATIK',
+            'description'=>'Gejala gangguan atau penyakit pada saraf di tubuh',
         ]);
     }
 }
